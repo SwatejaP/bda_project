@@ -1,0 +1,17 @@
+Criteria,Hive + HDFS (RCFile/ORC),MongoDB (NoSQL)
+Data Model,Tabular (rows & columns),Document (JSON/BSON nested)
+Schema Enforcement,Schema-on-Read (flexible),Schema-less (flexible documents)
+Query Language,HiveQL (SQL-like),MongoDB Query Language (MQL)
+Storage Format,"RCFile, ORC, Parquet, TextFile",BSON (Binary JSON)
+Best For,Large-scale batch analytics,Real-time CRUD + operational data
+Write Pattern,Append-only (immutable files),"In-place updates, upserts"
+Read Pattern,"Full table scans, partition pruning","Indexed lookups, aggregation pipeline"
+Horizontal Scaling,HDFS replication + partitioning,Sharding (hash or range-based)
+Real-Time Queries,"Poor (high latency, batch-oriented)",Excellent (sub-millisecond with indexes)
+Batch Analytics,Excellent (MapReduce/Tez/Spark engine),Moderate (aggregation pipeline)
+Schema Evolution,Limited (ALTER TABLE ADD COLUMNS),Flexible (add fields anytime)
+ACID Transactions,Limited (Hive 3.x+ with ACID on ORC),Yes (multi-document transactions)
+Compression,Excellent (ORC: 60-70% reduction),Moderate (WiredTiger compression)
+Column Pruning,Yes (ORC/Parquet skip unused columns),No (reads full documents)
+Fault Tolerance,HDFS replication (3x default),Replica sets (automatic failover)
+Typical Latency,Seconds to minutes,Milliseconds

@@ -1,0 +1,29 @@
+Feature,Importance
+Unit_Price,0.16087490393530768
+Total_Amount,0.15489839182930382
+Session_Duration_Min,0.14752305497932677
+Customer_Age,0.11870322251149487
+Discount_Percent,0.05837430702049342
+Shipping_Cost,0.051307691964991894
+Quantity,0.04900921016920933
+Device_Channel_Mobile App (iOS),0.017846473552047392
+Customer_Region_North America,0.015957010787119374
+Customer_Region_Europe,0.015374908190607326
+Order_Priority_Standard,0.015199643571306362
+Device_Channel_Web Desktop,0.015110505500557588
+Order_Priority_High,0.014779498727849914
+Order_Priority_Medium,0.01447874896261057
+Payment_Method_Debit Card,0.01411424867302915
+Payment_Method_Credit Card,0.014001393325061826
+Payment_Method_UPI / Digital Wallet,0.01321861176189158
+Payment_Method_PayPal,0.013031365524575542
+Product_Category_Fashion & Apparel,0.012363203234607503
+Product_Category_Home & Kitchen,0.011566569884912703
+Device_Channel_Mobile Web,0.01086702782372181
+Customer_Region_Latin America,0.010423343603805677
+Customer_Region_Middle East & Africa,0.009986340062812607
+Product_Category_Sports & Outdoors,0.009294423919821802
+Product_Category_Electronics,0.008805037188045449
+Device_Channel_Tablet,0.008576287873152684
+Payment_Method_Cryptocurrency,0.007191759851248623
+Product_Category_Books & Media,0.007122815571086623

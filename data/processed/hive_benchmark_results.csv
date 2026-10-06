@@ -1,0 +1,21 @@
+Storage_Format,Query,Query_Time_ms,Storage_Size_MB,Compression,Columnar,Predicate_Pushdown
+TEXTFILE,Q1: Category Revenue & Profitability,3135.8,23.63,None,False,False
+TEXTFILE,Q2: Regional Market Analysis,4074.0,23.63,None,False,False
+TEXTFILE,Q3: Payment Fraud Risk Analysis,3007.6,23.63,None,False,False
+TEXTFILE,Q4: Monthly Revenue Time Series,4164.7,23.63,None,False,False
+TEXTFILE,Q5: Top 10 VIP Customers,4252.3,23.63,None,False,False
+RCFILE,Q1: Category Revenue & Profitability,1814.3,17.01,Default (ZLIB),True,False
+RCFILE,Q2: Regional Market Analysis,2118.8,17.01,Default (ZLIB),True,False
+RCFILE,Q3: Payment Fraud Risk Analysis,1841.9,17.01,Default (ZLIB),True,False
+RCFILE,Q4: Monthly Revenue Time Series,2499.8,17.01,Default (ZLIB),True,False
+RCFILE,Q5: Top 10 VIP Customers,2789.9,17.01,Default (ZLIB),True,False
+ORC,Q1: Category Revenue & Profitability,886.4,8.98,Snappy + Run-Length Encoding,True,True
+ORC,Q2: Regional Market Analysis,1225.7,8.98,Snappy + Run-Length Encoding,True,True
+ORC,Q3: Payment Fraud Risk Analysis,916.3,8.98,Snappy + Run-Length Encoding,True,True
+ORC,Q4: Monthly Revenue Time Series,1173.4,8.98,Snappy + Run-Length Encoding,True,True
+ORC,Q5: Top 10 VIP Customers,1281.3,8.98,Snappy + Run-Length Encoding,True,True
+PARQUET,Q1: Category Revenue & Profitability,972.1,9.92,Snappy + Dictionary Encoding,True,True
+PARQUET,Q2: Regional Market Analysis,1177.9,9.92,Snappy + Dictionary Encoding,True,True
+PARQUET,Q3: Payment Fraud Risk Analysis,931.7,9.92,Snappy + Dictionary Encoding,True,True
+PARQUET,Q4: Monthly Revenue Time Series,1297.7,9.92,Snappy + Dictionary Encoding,True,True
+PARQUET,Q5: Top 10 VIP Customers,1391.9,9.92,Snappy + Dictionary Encoding,True,True
